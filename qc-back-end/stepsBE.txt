@@ -1,0 +1,19 @@
+1. Recieve from FE "Get Next Client"
+
+2. Send queued data to FE
+    - Start to generate and encode data for clients [i+1] and [i+2]
+        - Pie chart, bar graph, line graph, heat map
+
+3. Keep track of current client being displayed and upcoming queued
+    - Return with data upcoming list of clients
+
+
+
+
+4. Recieve from FE "Show me Client X"
+    - If client[x] data is queued:
+        send data to FE
+    - Else:
+        send wait response to FE until data completed
+
+
